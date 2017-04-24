@@ -35,6 +35,7 @@ Combining Like Fields (i.e. USA and US)
 3.  In the right column all facets will appear
 
 4.  Click on **Cluster** (red arrow)
+    
     <img src="./media/image3.png" width="623" height="218" />
 
 5.  For **Keying Function** choose from dropdown based on results
