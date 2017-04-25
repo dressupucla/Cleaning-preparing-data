@@ -25,7 +25,7 @@ Undoing Changes
 
     <img src="./media/image1.png" width="297" height="404" /><img src="./media/image2.png" width="319" height="402" />
 
-Combining Like Fields (i.e. USA and US)
+Normalizing values (i.e. USA and US)
 ---------------------------------------
 
 1.  Click on Arrow of desired column (blue arrow)
