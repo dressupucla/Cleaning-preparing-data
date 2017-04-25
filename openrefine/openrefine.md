@@ -142,6 +142,38 @@ the file extension to the filename.
 
 > <img src="./media/image16.png" width="325" height="258" /><img src="./media/image17.png" width="390" height="170" />
 
+Editing Cells: Split multi-valued Cells
+------------------
+This method splits cells at a specific given seperator (,:).  It will the values in the cells into their own row.
+
+1. Click on column arrow
+
+2. Choose Edit cells > Split multi-valued cells…
+
+<img src="./media/image32.png" width="345" height="290" />
+
+3. Enter the correct seperator value (a , for this example)
+
+4. Click Ok
+
+<img src="./media/image33.png" width="345" height="290" />
+
+<img src="./media/image34.png" width="345" height="290" />
+
+
+Editing Cells: Trim whitespace, change cells to lowercase, uppercase, etc.
+-----------------------------------------------------------
+
+There are a number of common transformation that openrefine offers its
+user. They are shown in the image below.
+
+1.  Click on column arrow
+
+2.  Choose **Edit cells &gt; Common transforms &gt; \[Selected
+    Transform\]**
+
+    <img src="./media/image21.png" width="317" height="378" />
+
 Editing Columns: Copying and Transforming Columns
 --------------------------------
 
@@ -161,19 +193,6 @@ overwriting the original column.
     <img src="./media/image18.png" width="442" height="334" />
 
     <img src="./media/image19.png" width="318" height="234" /><img src="./media/image20.png" width="384" height="287" />
-
-Editing Columns: Trim whitespace, change cells to lowercase, uppercase, etc.
------------------------------------------------------------
-
-There are a number of common transformation that openrefine offers its
-user. They are shown in the image below.
-
-1.  Click on column arrow
-
-2.  Choose **Edit cells &gt; Common transforms &gt; \[Selected
-    Transform\]**
-
-    <img src="./media/image21.png" width="317" height="378" />
 
 Reconcilination: Matching Cells to Controlled Vocabularies
 -----------------------------------------
