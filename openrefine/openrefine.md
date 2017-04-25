@@ -55,7 +55,7 @@ Normalizing values (i.e. USA and US)
 
         <img src="./media/image5.png" width="624" height="366" />
 
-Combining Like Values which are not shown with the Cluster Method
+Normalizing Values which are not shown with the Cluster Method
 -----------------------------------------------------------------
 
 1.  If a like value is not being grouped correctly with **Cluster** rows
