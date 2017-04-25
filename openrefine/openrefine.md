@@ -365,7 +365,7 @@ description fields. Install instructions can be found here:
 
 6. Choose **Extract named entities...**
 
-<img src="./media/image42.png" width="355" height="219" />
+<img src="./media/image42.png" width="221" height="357" />
 
 7. Click on proper API's.  DBpedia does not require an API key
 
