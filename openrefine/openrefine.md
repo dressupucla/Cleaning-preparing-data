@@ -148,7 +148,7 @@ This method splits cells at a specific given seperator (,:).  It will the values
 
 1. Click on column arrow
 
-2. Choose Edit cells > Split multi-valued cells…
+2. Choose **Edit cells > Split multi-valued cells…**
 
 <img src="./media/image32.png" width="400" height="438" />
 
@@ -166,7 +166,7 @@ This examples uses split cells from the previous example and rejoins the cells.
 
 1. Click on column arrow
 
-2. Choose Edit cells > Join multi-valued cells…
+2. Choose **Edit cells > Join multi-valued cells…**
 
 <img src="./media/image35.png" width="400" height="283" />
 
@@ -211,6 +211,17 @@ overwriting the original column.
     <img src="./media/image18.png" width="442" height="334" />
 
     <img src="./media/image19.png" width="318" height="234" /><img src="./media/image20.png" width="384" height="287" />
+
+
+Editing Cells: Fill Down
+--------------------------------
+This method allows for empty cells to be filled with the previously filled cell's value.
+
+1. Choose column arrow
+
+2. Choose **Edit cells > Fill down**
+
+<img src="./media/image38.png" width="300" height="258" /><img src="./media/image39.png" width="300" height="367" />
 
 Reconcilination: Matching Cells to Controlled Vocabularies
 -----------------------------------------
