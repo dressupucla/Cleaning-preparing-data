@@ -345,16 +345,24 @@ description fields. Install instructions can be found here:
 
 2. Once OpenRefine has been restarted, in the upper right hand corner under extensions: click on Named-entity recognition
 
+<img src="./media/image40.png" width="312" height="89" />
+
 3. Configure API services (note: some links are dead, new links below)
     Zemanta = <http://www.zemanta.com/?oppistid=aLSUtbXYbGt>
     dataTXT = <https://dandelion.eu/docs/api/datatxt/nex/getting-started/>
 
 4. Click Update
-    
+
+<img src="./media/image41.png" width="300" height="366" />
+
 5. Click on column arrow
 
 6. Choose **Extract named entities...**
 
+<img src="./media/image42.png" width="219" height="355" />
+
 7. Click on proper API's.  DBpedia does not require an API key
 
 8. **Start Extraction**
+
+<img src="./media/image44.png" width="347" height="331" /><img src="./media/image43.png" width="446" height="429" />
