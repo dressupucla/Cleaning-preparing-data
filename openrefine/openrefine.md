@@ -150,15 +150,33 @@ This method splits cells at a specific given seperator (,:).  It will the values
 
 2. Choose Edit cells > Split multi-valued cells…
 
-<img src="./media/image32.png" width="345" height="290" />
+<img src="./media/image32.png" width="400" height="438" />
 
-3. Enter the correct seperator value (a , for this example)
+3. Enter the correct separator value (a , for this example)
 
 4. Click Ok
 
 <img src="./media/image33.png" width="345" height="170" />
 
 <img src="./media/image34.png" width="400" height="190" />
+
+Editing Cells: Join multi-valued Cells
+------------------
+This examples uses split cells from the previous example and rejoins the cells.
+
+1. Click on column arrow
+
+2. Choose Edit cells > Join multi-valued cells…
+
+<img src="./media/image35.png" width="400" height="283" />
+
+3. Choose the separator the values should be separated by (this example uses a ;)
+
+4. Click OK
+
+<img src="./media/image36.png" width="345" height="196" />
+<img src="./media/image37.png" width="400" height="122" />
+
 
 
 Editing Cells: Trim whitespace, change cells to lowercase, uppercase, etc.
