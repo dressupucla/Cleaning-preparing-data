@@ -1,4 +1,4 @@
-Uploading Spreadsheet
+Importing: Uploading Spreadsheet
 ---------------------
 
 1.  Open OpenRefine
@@ -15,7 +15,7 @@ Uploading Spreadsheet
 5.  Make sure fields are formatted correctly and then click **Create
     Project**
 
-Undoing Changes
+History: Undoing Changes
 ---------------
 
 1.  Click on **Undo / Redo** tab (located on the left sidebar)
@@ -25,7 +25,7 @@ Undoing Changes
 
     <img src="./media/image1.png" width="297" height="404" /><img src="./media/image2.png" width="319" height="402" />
 
-Combining Like Fields (i.e. USA and US)
+Filtering/Faceting: Normalizing values (i.e. USA and US)
 ---------------------------------------
 
 1.  Click on Arrow of desired column (blue arrow)
@@ -55,7 +55,7 @@ Combining Like Fields (i.e. USA and US)
 
         <img src="./media/image5.png" width="624" height="366" />
 
-Combining Like Values which are not shown with the Cluster Method
+Filtering/Faceting: Normalizing Values which are not shown with the Cluster Method
 -----------------------------------------------------------------
 
 1.  If a like value is not being grouped correctly with **Cluster** rows
@@ -78,7 +78,7 @@ Combining Like Values which are not shown with the Cluster Method
 
 <img src="./media/image8.png" width="691" height="238" />
 
-Creating Custom Text Facets
+Filtering/Faceting: Creating Custom Text Facets
 ---------------------------
 
 Openrefine allows for uses to create custom facets, using functions. The
@@ -87,10 +87,10 @@ want to view only the first names of the autors in the image above, a
 custom facet can be built to view. To see other expressions, go to
 <https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Users#reference>
 
-1.  <img src="./media/image9.png" width="471" height="194" />Click on
-    column arrow
+1.  Click on column arrow
 
 2.  Choose **Facet &gt; Custom text facet…**
+<img src="./media/image9.png" width="471" height="194" />
 
 3.  Enter the expression needed. (The example below splits at spaces,
     and chooses the first value)
@@ -105,7 +105,7 @@ custom facet can be built to view. To see other expressions, go to
 
     <img src="./media/image12.png" width="686" height="301" />
 
-Searching through Facets
+Filtering/Faceting: Searching through Facets
 ------------------------
 
 Openrefine allows users to search through facets, an allows for multiple
@@ -123,7 +123,7 @@ facets to be searched at once.
 >
 > <img src="./media/image14.png" width="621" height="231" />
 
-Transforming Cells
+Editing Cells: Transforming Cells
 ------------------
 
 This section outlines how to mass edit one column. This example will add
@@ -131,8 +131,8 @@ the file extension to the filename.
 
 1.  Click on the column arrow
 
-2.  <img src="./media/image15.png" width="345" height="290" />Choose
-    **Edit cells &gt; Transform…**
+2.  Choose **Edit cells &gt; Transform…**
+<img src="./media/image15.png" width="345" height="290" />
 
 3.  Enter expression to transform cell. Same expression documentation as
     **Creating Custom
@@ -142,7 +142,54 @@ the file extension to the filename.
 
 > <img src="./media/image16.png" width="325" height="258" /><img src="./media/image17.png" width="390" height="170" />
 
-Copying and Transforming Columns
+Editing Cells: Split multi-valued Cells
+------------------
+This method splits cells at a specific given seperator (,:).  It will the values in the cells into their own row.
+
+1. Click on column arrow
+
+2. Choose **Edit cells > Split multi-valued cells…**
+
+<img src="./media/image32.png" width="400" height="438" />
+
+3. Enter the correct separator value (a , for this example)
+
+4. Click Ok
+
+<img src="./media/image33.png" width="345" height="170" /><img src="./media/image34.png" width="400" height="190" />
+
+Editing Cells: Join multi-valued Cells
+------------------
+This examples uses split cells from the previous example and rejoins the cells.
+
+1. Click on column arrow
+
+2. Choose **Edit cells > Join multi-valued cells…**
+
+<img src="./media/image35.png" width="400" height="283" />
+
+3. Choose the separator the values should be separated by (this example uses a ;)
+
+4. Click OK
+
+<img src="./media/image36.png" width="345" height="196" /><img src="./media/image37.png" width="400" height="122" />
+
+
+
+Editing Cells: Trim whitespace, change cells to lowercase, uppercase, etc.
+-----------------------------------------------------------
+
+There are a number of common transformation that openrefine offers its
+user. They are shown in the image below.
+
+1.  Click on column arrow
+
+2.  Choose **Edit cells &gt; Common transforms &gt; \[Selected
+    Transform\]**
+
+    <img src="./media/image21.png" width="317" height="378" />
+
+Editing Columns: Copying and Transforming Columns
 --------------------------------
 
 This section allows for the section on **Transforming Cells** to be
@@ -162,20 +209,18 @@ overwriting the original column.
 
     <img src="./media/image19.png" width="318" height="234" /><img src="./media/image20.png" width="384" height="287" />
 
-Trim whitespace, change cells to lowercase, uppercase, etc.
------------------------------------------------------------
 
-There are a number of common transformation that openrefine offers its
-user. They are shown in the image below.
+Editing Cells: Fill Down
+--------------------------------
+This method allows for empty cells to be filled with the previously filled cell's value.
 
-1.  Click on column arrow
+1. Choose column arrow
 
-2.  Choose **Edit cells &gt; Common transforms &gt; \[Selected
-    Transform\]**
+2. Choose **Edit cells > Fill down**
 
-    <img src="./media/image21.png" width="317" height="378" />
+<img src="./media/image38.png" width="300" height="258" /><img src="./media/image39.png" width="300" height="367" />
 
-Matching Cells to Controlled Vocabularies
+Reconcilination: Matching Cells to Controlled Vocabularies
 -----------------------------------------
 
 There are a number of vocabularies that can be reconciled against cells
@@ -229,9 +274,9 @@ https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API
 1.  Click the check to match with the single cell, the double check will
     match to all identical cells (see image below)
 
-2.  <img src="./media/image25.png" width="615" height="351" />Matched
-    cells will be shown in sidebar, additionally, the records are
+2.  Matched cells will be shown in sidebar, additionally, the records are
     hyperlinks, so the information contained can be viewed.
+    <img src="./media/image25.png" width="615" height="351" />
 
 <img src="./media/image26.png" width="626" height="363" />
 
@@ -267,9 +312,10 @@ Extension installation is covered in the first \_\_ steps.
 
 3.  Click **Open Project (blue arrow)**
 
-4.  <img src="./media/image29.png" width="699" height="397" />At the
-    Bottom of the page click on **Browse Workplace directory
+4.  At the Bottom of the page click on **Browse Workplace directory
     (red arrow)**
+
+<img src="./media/image29.png" width="699" height="397" />
 
 5.  A file folder window should open
 
