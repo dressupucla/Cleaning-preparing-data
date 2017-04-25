@@ -144,18 +144,22 @@ Batch Processing MODS to Marc (might not work)
 ----------------------------------------------
 
 1.  Open Tools &gt; Batch Process
-    Records<img src="./media/image14.png" width="508" height="488" />
+    Records
+    
+    <img src="./media/image14.png" width="508" height="488" />
 
 2.  Enter the directory containing the MODS files
 
 3.  Enter the file type of xml
 
 4.  Change the Function to
-    **MODS=&gt;MARC**<img src="./media/image15.png" width="489" height="332" />
+    **MODS=&gt;MARC**
+    
+    <img src="./media/image15.png" width="489" height="332" />
 
 5.  Click **Process**
 
-> <img src="./media/image16.png" width="250" height="428" />
+<img src="./media/image16.png" width="250" height="428" />
 
 **Error Screen**
 
@@ -177,6 +181,7 @@ how to do so.
 4.  Change Function List to **MODS=&gt;MARC**
 
 5.  Change Default Character Encoding to **UTF8**
+    
     <img src="./media/image18.png" width="553" height="412" />
 
 6.  Click **Execute**
