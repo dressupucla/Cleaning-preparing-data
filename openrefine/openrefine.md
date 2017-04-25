@@ -87,10 +87,10 @@ want to view only the first names of the autors in the image above, a
 custom facet can be built to view. To see other expressions, go to
 <https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Users#reference>
 
-1.  <img src="./media/image9.png" width="471" height="194" />Click on
-    column arrow
+1.  Click on column arrow
 
 2.  Choose **Facet &gt; Custom text facet…**
+<img src="./media/image9.png" width="471" height="194" />
 
 3.  Enter the expression needed. (The example below splits at spaces,
     and chooses the first value)
@@ -131,8 +131,8 @@ the file extension to the filename.
 
 1.  Click on the column arrow
 
-2.  <img src="./media/image15.png" width="345" height="290" />Choose
-    **Edit cells &gt; Transform…**
+2.  Choose **Edit cells &gt; Transform…**
+<img src="./media/image15.png" width="345" height="290" />
 
 3.  Enter expression to transform cell. Same expression documentation as
     **Creating Custom
@@ -229,9 +229,9 @@ https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API
 1.  Click the check to match with the single cell, the double check will
     match to all identical cells (see image below)
 
-2.  <img src="./media/image25.png" width="615" height="351" />Matched
-    cells will be shown in sidebar, additionally, the records are
+2.  Matched cells will be shown in sidebar, additionally, the records are
     hyperlinks, so the information contained can be viewed.
+    <img src="./media/image25.png" width="615" height="351" />
 
 <img src="./media/image26.png" width="626" height="363" />
 
@@ -267,9 +267,10 @@ Extension installation is covered in the first \_\_ steps.
 
 3.  Click **Open Project (blue arrow)**
 
-4.  <img src="./media/image29.png" width="699" height="397" />At the
-    Bottom of the page click on **Browse Workplace directory
+4.  At the Bottom of the page click on **Browse Workplace directory
     (red arrow)**
+
+<img src="./media/image29.png" width="699" height="397" />
 
 5.  A file folder window should open
 
