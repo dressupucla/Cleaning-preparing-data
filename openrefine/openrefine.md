@@ -341,4 +341,20 @@ Named Entity Extraction will pull named entities (like names) from
 description fields. Install instructions can be found here:
 <http://freeyourmetadata.org/named-entity-extraction/> and below.
 
-1.  
+1.  Preform Extension Installation (seen above).  Download extension from: <http://software.freeyourmetadata.org/ner-extension/>
+
+2. Once OpenRefine has been restarted, in the upper right hand corner under extensions: click on Named-entity recognition
+
+3. Configure API services (note: some links are dead, new links below)
+    Zemanta = <http://www.zemanta.com/?oppistid=aLSUtbXYbGt>
+    dataTXT = <https://dandelion.eu/docs/api/datatxt/nex/getting-started/>
+
+4. Click Update
+    
+5. Click on column arrow
+
+6. Choose **Extract named entities...**
+
+7. Click on proper API's.  DBpedia does not require an API key
+
+8. **Start Extraction**
