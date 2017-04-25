@@ -261,13 +261,15 @@ https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API
 
 7. Choose VIAF, click on tag icon
 
-8. Choose which entity to reconcile against (person, corporate name, enter in, or no particular type)
+    <img src="./media/image24.png" width="600" height="400" />
 
-    <img src="./media/image24a.png" width="588" height="484" />
+8. Choose which entity to reconcile against (person, corporate name, enter in type, or no particular type)
+    note: to find out entity types click on **Access Service API**  The webpage for VIAF is seen below.  Use the id when entering text into **Reconcile against type:**
+        {"name":"VIAF","view {"url":"http://viaf.org/viaf/{{id}}"},"identifierSpace":"http://rdf.freebase.com/ns/user/hangy/viaf","schemaSpace":"http://rdf.freebase.com/ns/type.object.id","defaultTypes":[{"id":"/people/person","name":"Person"},{"id":"/organization/organization","name":"Corporate Name"},{"id":"/location/location","name":"Geographic Name"},{"id":"/book/book","name":"Work"},{"id":"/book/book edition","name":"Expression"}]}
+
+    <img src="./media/image24a.png" width="600" height="400" />
 
 9. Click **Start Reconciling**
-
-    <img src="./media/image24.png" width="588" height="484" />
 
 10.  After the program has finished reconciling the program should look
     like the image below.
