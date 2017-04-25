@@ -42,6 +42,7 @@ software.
 2.  Save to txt file. (Sample seen below)
 
 <img src="./media/image13.png" width="234" height="317" />
+
 Marc Record to CSV
 ==================
 
@@ -56,11 +57,11 @@ the how often the field appears in the Record. The user might want to
 use this report to compile a list of fields they want ingested. In order
 to do this they need to create a plain text (.txt) file with the first
 line: **\#NORMAL:\#true** followed by the fields wanted on a new line
-(see image to the left).
-<img src="./media/image1.png" width="600" height="415" />
+(see image to the bellow).
 
-Additionally the
-user should be aware that MARC fields without any sub categories are
+<img src="./media/image1.png" width="400" height="215" />
+
+Additionally the user should be aware that MARC fields without any sub categories are
 automatically assumed to be of the subcategory $a. So if you request the
 MARC field 100, the program will believe this to be the equivalent to
 100$a. This means importing the 100 field and the 100$a field would lead
