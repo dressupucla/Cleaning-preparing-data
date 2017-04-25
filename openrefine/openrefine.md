@@ -1,4 +1,4 @@
-Uploading Spreadsheet
+Importing: Uploading Spreadsheet
 ---------------------
 
 1.  Open OpenRefine
@@ -15,7 +15,7 @@ Uploading Spreadsheet
 5.  Make sure fields are formatted correctly and then click **Create
     Project**
 
-Undoing Changes
+History: Undoing Changes
 ---------------
 
 1.  Click on **Undo / Redo** tab (located on the left sidebar)
@@ -25,7 +25,7 @@ Undoing Changes
 
     <img src="./media/image1.png" width="297" height="404" /><img src="./media/image2.png" width="319" height="402" />
 
-Normalizing values (i.e. USA and US)
+Filtering/Faceting: Normalizing values (i.e. USA and US)
 ---------------------------------------
 
 1.  Click on Arrow of desired column (blue arrow)
@@ -55,7 +55,7 @@ Normalizing values (i.e. USA and US)
 
         <img src="./media/image5.png" width="624" height="366" />
 
-Normalizing Values which are not shown with the Cluster Method
+Filtering/Faceting: Normalizing Values which are not shown with the Cluster Method
 -----------------------------------------------------------------
 
 1.  If a like value is not being grouped correctly with **Cluster** rows
@@ -78,7 +78,7 @@ Normalizing Values which are not shown with the Cluster Method
 
 <img src="./media/image8.png" width="691" height="238" />
 
-Creating Custom Text Facets
+Filtering/Faceting: Creating Custom Text Facets
 ---------------------------
 
 Openrefine allows for uses to create custom facets, using functions. The
@@ -105,7 +105,7 @@ custom facet can be built to view. To see other expressions, go to
 
     <img src="./media/image12.png" width="686" height="301" />
 
-Searching through Facets
+Filtering/Faceting: Searching through Facets
 ------------------------
 
 Openrefine allows users to search through facets, an allows for multiple
@@ -123,7 +123,7 @@ facets to be searched at once.
 >
 > <img src="./media/image14.png" width="621" height="231" />
 
-Transforming Cells
+Editing Cells: Transforming Cells
 ------------------
 
 This section outlines how to mass edit one column. This example will add
@@ -142,7 +142,7 @@ the file extension to the filename.
 
 > <img src="./media/image16.png" width="325" height="258" /><img src="./media/image17.png" width="390" height="170" />
 
-Copying and Transforming Columns
+Editing Columns: Copying and Transforming Columns
 --------------------------------
 
 This section allows for the section on **Transforming Cells** to be
@@ -162,7 +162,7 @@ overwriting the original column.
 
     <img src="./media/image19.png" width="318" height="234" /><img src="./media/image20.png" width="384" height="287" />
 
-Trim whitespace, change cells to lowercase, uppercase, etc.
+Editing Columns: Trim whitespace, change cells to lowercase, uppercase, etc.
 -----------------------------------------------------------
 
 There are a number of common transformation that openrefine offers its
@@ -175,7 +175,7 @@ user. They are shown in the image below.
 
     <img src="./media/image21.png" width="317" height="378" />
 
-Matching Cells to Controlled Vocabularies
+Reconcilination: Matching Cells to Controlled Vocabularies
 -----------------------------------------
 
 There are a number of vocabularies that can be reconciled against cells
