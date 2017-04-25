@@ -259,14 +259,23 @@ https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API
 
     <img src="./media/image23.png" width="714" height="373" />
 
-7.  Click **Start Reconciling**
+7. Choose VIAF, click on tag icon
 
-    <img src="./media/image24.png" width="588" height="484" />
+    <img src="./media/image24.png" width="600" height="400" />
 
-8.  After the program has finished reconciling the program should look
+8. Choose which entity to reconcile against (person, corporate name, enter in type, or no particular type)
+    note: to find out entity types click on **Access Service API**  The webpage for VIAF is seen below.  Use the id (i.e. /location/location) when entering text into **Reconcile against type:**
+        
+        {"name":"VIAF","view        {"url":"http://viaf.org/viaf/{{id}}"},"identifierSpace":"http://rdf.freebase.com/ns/user/hangy/viaf","schemaSpace":"http://rdf.freebase.com/ns/type.object.id","defaultTypes":[{"id":"/people/person","name":"Person"},{"id":"/organization/organization","name":"Corporate Name"},{"id":"/location/location","name":"Geographic Name"},{"id":"/book/book","name":"Work"},{"id":"/book/book edition","name":"Expression"}]}
+
+    <img src="./media/image24a.png" width="600" height="400" />
+
+9. Click **Start Reconciling**
+
+10.  After the program has finished reconciling the program should look
     like the image below.
 
-9.  Two things can happen: these topics can be matched to their cells or
+11.  Two things can happen: these topics can be matched to their cells or
     the best matches can be put into another column. This will show both
 
 ### Matching with cells.
@@ -276,6 +285,7 @@ https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API
 
 2.  Matched cells will be shown in sidebar, additionally, the records are
     hyperlinks, so the information contained can be viewed.
+    
     <img src="./media/image25.png" width="615" height="351" />
 
 <img src="./media/image26.png" width="626" height="363" />
@@ -340,4 +350,28 @@ Named Entity Extraction will pull named entities (like names) from
 description fields. Install instructions can be found here:
 <http://freeyourmetadata.org/named-entity-extraction/> and below.
 
-1.  
+1.  Preform Extension Installation (seen above).  Download extension from: <http://software.freeyourmetadata.org/ner-extension/>
+
+2. Once OpenRefine has been restarted, in the upper right hand corner under extensions: click on Named-entity recognition
+
+<img src="./media/image40.png" width="312" height="89" />
+
+3. Configure API services (note: some links are dead, new links below)
+    Zemanta = <http://www.zemanta.com/?oppistid=aLSUtbXYbGt>
+    dataTXT = <https://dandelion.eu/docs/api/datatxt/nex/getting-started/>
+
+4. Click Update
+
+<img src="./media/image41.png" width="300" height="366" />
+
+5. Click on column arrow
+
+6. Choose **Extract named entities...**
+
+<img src="./media/image42.png" width="221" height="357" />
+
+7. Click on proper API's.  DBpedia does not require an API key
+
+8. **Start Extraction**
+
+<img src="./media/image44.png" width="347" height="331" /><img src="./media/image43.png" width="446" height="429" />
