@@ -259,14 +259,20 @@ https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API
 
     <img src="./media/image23.png" width="714" height="373" />
 
-7.  Click **Start Reconciling**
+7. Choose VIAF, click on tag icon
+
+8. Choose which entity to reconcile against (person, corporate name, enter in, or no particular type)
+
+    <img src="./media/image24a.png" width="588" height="484" />
+
+9. Click **Start Reconciling**
 
     <img src="./media/image24.png" width="588" height="484" />
 
-8.  After the program has finished reconciling the program should look
+10.  After the program has finished reconciling the program should look
     like the image below.
 
-9.  Two things can happen: these topics can be matched to their cells or
+11.  Two things can happen: these topics can be matched to their cells or
     the best matches can be put into another column. This will show both
 
 ### Matching with cells.
