@@ -156,9 +156,9 @@ This method splits cells at a specific given seperator (,:).  It will the values
 
 4. Click Ok
 
-<img src="./media/image33.png" width="345" height="290" />
+<img src="./media/image33.png" width="345" height="170" />
 
-<img src="./media/image34.png" width="345" height="290" />
+<img src="./media/image34.png" width="400" height="190" />
 
 
 Editing Cells: Trim whitespace, change cells to lowercase, uppercase, etc.
