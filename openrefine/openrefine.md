@@ -276,6 +276,7 @@ https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API
 
 2.  Matched cells will be shown in sidebar, additionally, the records are
     hyperlinks, so the information contained can be viewed.
+    
     <img src="./media/image25.png" width="615" height="351" />
 
 <img src="./media/image26.png" width="626" height="363" />
