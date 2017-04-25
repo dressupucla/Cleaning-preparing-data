@@ -1,3 +1,47 @@
+
+<span id="_Gathering_Fields_in" class="anchor"><span id="_Toc471742369" class="anchor"></span></span>Gathering Fields in Marc Records
+=====================================================================================================================================
+
+This section will inform users on how to gather the fields and subfields
+being used in a MARC record. The report will produce a file with the
+following information: the field, the subfield, the number of records
+the field (does not apply to subfield) occurs in, and the total number
+of occurrences of the field or subfield (this number includes multiples
+in a field which are counted by **semicolons**). This file is saved as a
+txt file, but formats better if opened with excel or spreadsheet
+software.
+
+1.  Open MarcEdit
+
+2.  Click on **MarcEditor**
+
+3.  Click on the **File** Menu
+
+4.  Choose **Open**
+
+> <img src="./media/image9.png" width="568" height="552" />
+
+**Steps 3 ,4**
+
+1.  Choose the correct Marc record and **Open**
+
+<img src="./media/image10.png" width="594" height="576" />
+
+1.  Choose the **Reports** Menu
+
+2.  Choose **Field Count**
+
+> <img src="./media/image11.png" width="669" height="653" />
+
+**Steps 6, 7**
+
+1.  Click on **Generate Report**
+
+    <img src="./media/image12.png" width="525" height="445" />
+
+2.  Save to txt file. (Sample seen below)
+
+<img src="./media/image13.png" width="234" height="317" />
 Marc Record to CSV
 ==================
 
@@ -13,7 +57,9 @@ use this report to compile a list of fields they want ingested. In order
 to do this they need to create a plain text (.txt) file with the first
 line: **\#NORMAL:\#true** followed by the fields wanted on a new line
 (see image to the left).
-<img src="./media/image1.png" width="142" height="92" />Additionally the
+<img src="./media/image1.png" width="600" height="415" />
+
+Additionally the
 user should be aware that MARC fields without any sub categories are
 automatically assumed to be of the subcategory $a. So if you request the
 MARC field 100, the program will believe this to be the equivalent to
@@ -72,50 +118,6 @@ another operating system (i.e. Windows) might appear slightly different.
 1.  Click **Process**
 
 <img src="./media/image8.png" width="571" height="386" />
-
-<span id="_Gathering_Fields_in" class="anchor"><span id="_Toc471742369" class="anchor"></span></span>Gathering Fields in Marc Records
-=====================================================================================================================================
-
-This section will inform users on how to gather the fields and subfields
-being used in a MARC record. The report will produce a file with the
-following information: the field, the subfield, the number of records
-the field (does not apply to subfield) occurs in, and the total number
-of occurrences of the field or subfield (this number includes multiples
-in a field which are counted by **semicolons**). This file is saved as a
-txt file, but formats better if opened with excel or spreadsheet
-software.
-
-1.  Open MarcEdit
-
-2.  Click on **MarcEditor**
-
-3.  Click on the **File** Menu
-
-4.  Choose **Open**
-
-> <img src="./media/image9.png" width="568" height="552" />
-
-**Steps 3 ,4**
-
-1.  Choose the correct Marc record and **Open**
-
-<img src="./media/image10.png" width="594" height="576" />
-
-1.  Choose the **Reports** Menu
-
-2.  Choose **Field Count**
-
-> <img src="./media/image11.png" width="669" height="653" />
-
-**Steps 6, 7**
-
-1.  Click on **Generate Report**
-
-    <img src="./media/image12.png" width="525" height="445" />
-
-2.  Save to txt file. (Sample seen below)
-
-<img src="./media/image13.png" width="234" height="317" />
 
 MODS to CSV
 ===========
