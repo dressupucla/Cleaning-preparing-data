@@ -156,9 +156,7 @@ This method splits cells at a specific given seperator (,:).  It will the values
 
 4. Click Ok
 
-<img src="./media/image33.png" width="345" height="170" />
-
-<img src="./media/image34.png" width="400" height="190" />
+<img src="./media/image33.png" width="345" height="170" /><img src="./media/image34.png" width="400" height="190" />
 
 Editing Cells: Join multi-valued Cells
 ------------------
@@ -174,8 +172,7 @@ This examples uses split cells from the previous example and rejoins the cells.
 
 4. Click OK
 
-<img src="./media/image36.png" width="345" height="196" />
-<img src="./media/image37.png" width="400" height="122" />
+<img src="./media/image36.png" width="345" height="196" /><img src="./media/image37.png" width="400" height="122" />
 
 
 
