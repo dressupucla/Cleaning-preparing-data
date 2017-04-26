@@ -174,6 +174,27 @@ user. They are shown in the image below.
     Transform\]**
 
     <img src="./media/image21.png" width="317" height="378" />
+    
+Reshape (aka Restructure) Data
+-----------------------------------------------------------
+ 
+ Many datasets can be structured interchangeably between a "wide" or "long" format, and it is sometimes necessary restructure a wide dataset as a long one, as vice versa. 
+ 
+Example of a dataset in 'Long' Structure:
+ 
+| Country       | Year          | Avg Temp  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+Example of this same dataset in 'Wide' Structure:
+
+
+
+
+
+
 
 Matching Cells to Controlled Vocabularies
 -----------------------------------------
