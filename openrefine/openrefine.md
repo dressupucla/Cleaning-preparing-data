@@ -175,7 +175,7 @@ user. They are shown in the image below.
 
     <img src="./media/image21.png" width="317" height="378" />
     
-Reshape (aka Restructure) Data
+Reshape (i.e., Restructure) Data
 -----------------------------------------------------------
  
  Many datasets can be structured interchangeably between a "wide" or "long" format, and it is sometimes necessary restructure a wide dataset as a long one, as vice versa. 
@@ -197,13 +197,14 @@ Example of a dataset in 'Long' Structure:
 Example of the same dataset in 'Wide' Structure:
 
 
-| Country       | Year          | AvgTemp.1994 | AvgTemp.1995 | AvgTemp.1996 |
-| ------------- |:-------------:| ------------:| ------------:| ------------:|
-| Sweden        | 1994          | 6            | 3            | 5            |
-| Denmark       | 1994          | 6            | 5            | 5            |
-| Norway        | 1994          | 2            | 8            | 3            |
+| Country       | AvgTemp.1994 | AvgTemp.1995 | AvgTemp.1996 |
+| ------------- | ------------:| ------------:| ------------:|
+| Sweden        | 6            | 3            | 5            |
+| Denmark       | 6            | 5            | 5            |
+| Norway        | 2            | 8            | 3            |
 
 
+Reshaping from Long to Wide (and vice versa) can be done in OpenRefin, using the "Transpose" function in OpenRefine.
 
 
 Matching Cells to Controlled Vocabularies
