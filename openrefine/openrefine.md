@@ -207,15 +207,19 @@ Example of the same dataset in 'Wide' Structure:
 Reshaping from Long to Wide (and vice versa) can be done in OpenRefine, using the "Transpose" function in OpenRefine. Its a tricky function to use. 
 
 1. Data looks like this at first, originally entered in "Long" format:
+   
    <img src="./media/image32.png" width="345" height="290" />
 
 2. Columnize by Key/Value
+   
    <img src="./media/image33.png" width="345" height="290" />
 
+   
    <img src="./media/image34.png" width="345" height="290" />
 
 3. Now Data is "Wide" format:
 
+   
    <img src="./media/image35.png" width="345" height="290" />
 
 
