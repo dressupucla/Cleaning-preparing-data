@@ -178,7 +178,7 @@ user. They are shown in the image below.
 Reshape (i.e., Restructure) Data
 -----------------------------------------------------------
  
- Many datasets can be structured interchangeably between a "wide" or "long" format, and it is sometimes necessary restructure a wide dataset as a long one, as vice versa. 
+ Many datasets can be structured interchangeably between a "wide" or "long" format, and it is sometimes necessary restructure a wide dataset as a long one, and vice versa. 
  
 Example of a dataset in 'Long' Structure:
  
