@@ -182,16 +182,20 @@ Reshape (aka Restructure) Data
  
 Example of a dataset in 'Long' Structure:
  
-| Country       | Year          | Avg Temp  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Country       | Year          | AvgTemp  |
+| ------------- |:-------------:| --------:|
+| Sweden        | 1994          | 6        |
+| Denmark       | 1994          | 6        |
+| Norway        | 1994          | 2        |
 
-Example of this same dataset in 'Wide' Structure:
+Example of the same dataset in 'Wide' Structure:
 
 
-
+| Country       | Year          | AvgTemp.1994 | AvgTemp.1995 |
+| ------------- |:-------------:| ------------:| ------------:|
+| Sweden        | 1994          | 6            | 3            |
+| Denmark       | 1994          | 6            | 5            |
+| Norway        | 1994          | 2            | 8            |
 
 
 
