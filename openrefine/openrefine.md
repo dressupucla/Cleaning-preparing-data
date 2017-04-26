@@ -187,15 +187,21 @@ Example of a dataset in 'Long' Structure:
 | Sweden        | 1994          | 6        |
 | Denmark       | 1994          | 6        |
 | Norway        | 1994          | 2        |
+| Sweden        | 1995          | 3        |
+| Denmark       | 1995          | 5        |
+| Norway        | 1995          | 8        |
+| Sweden        | 1996          | 5        |
+| Denmark       | 1996          | 5        |
+| Norway        | 1996          | 3        |
 
 Example of the same dataset in 'Wide' Structure:
 
 
-| Country       | Year          | AvgTemp.1994 | AvgTemp.1995 |
-| ------------- |:-------------:| ------------:| ------------:|
-| Sweden        | 1994          | 6            | 3            |
-| Denmark       | 1994          | 6            | 5            |
-| Norway        | 1994          | 2            | 8            |
+| Country       | Year          | AvgTemp.1994 | AvgTemp.1995 | AvgTemp.1996 |
+| ------------- |:-------------:| ------------:| ------------:| ------------:|
+| Sweden        | 1994          | 6            | 3            | 5            |
+| Denmark       | 1994          | 6            | 5            | 5            |
+| Norway        | 1994          | 2            | 8            | 3            |
 
 
 
