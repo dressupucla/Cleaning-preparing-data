@@ -1,1 +1,17 @@
 ## Regular Expressions Cheat Sheet with examples for OpenRefine
+
+Regular Expressions can be used in OpenRefine, as well as in other applications like Python and R, to manipulate data in a more fine-grained detail.
+
+
+As a first example, here is an adapted example from https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions. 
+Specifcally, consider the number as our datapoint of interest: -120.899. 
+
+We can describe this number as:
+  -It optionally starts with a sign (minus or plus)
+  -Then it consists of a sequence of one or more digits
+  -Then optionally if it has a decimal part, it contains a period, followed by one or more digits
+
+In regular expressions, this data structure is written out as:
+ [-+]?[0-9]+(\.[0-9]+)?
+ 
+ The question mark ? denotes an optional character or group of characters. The period . needs to be escaped by preceding it with a backslash \. A digit is denoted as the range of character from 0 to 9.
