@@ -218,7 +218,71 @@ This method allows for empty cells to be filled with the previously filled cell'
 
 2. Choose **Edit cells > Fill down**
 
-<img src="./media/image38.png" width="300" height="258" /><img src="./media/image39.png" width="300" height="367" />
+    <img src="./media/image21.png" width="317" height="378" />
+    
+Reshape (i.e., Restructure) Data
+-----------------------------------------------------------
+ 
+ Many datasets can be structured interchangeably between a "wide" or "long" format, and it is sometimes necessary restructure a wide dataset as a long one, and vice versa. 
+ 
+Example of a dataset in 'Long' Structure:
+ 
+| Country       | Year          | AvgTemp  |
+| ------------- |:-------------:| --------:|
+| Sweden        | 1994          | 6        |
+| Denmark       | 1994          | 6        |
+| Norway        | 1994          | 2        |
+| Sweden        | 1995          | 3        |
+| Denmark       | 1995          | 5        |
+| Norway        | 1995          | 8        |
+| Sweden        | 1996          | 5        |
+| Denmark       | 1996          | 5        |
+| Norway        | 1996          | 3        |
+
+Example of the same dataset in 'Wide' Structure:
+
+
+| Country       | AvgTemp.1994 | AvgTemp.1995 | AvgTemp.1996 |
+| ------------- | ------------:| ------------:| ------------:|
+| Sweden        | 6            | 3            | 5            |
+| Denmark       | 6            | 5            | 5            |
+| Norway        | 2            | 8            | 3            |
+
+
+Reshaping from Long to Wide (and vice versa) can be done in OpenRefine, using the "Transpose" function in OpenRefine. Its a tricky function to use. 
+
+1. Data looks like this at first, originally entered in "Long" format:
+   
+   <img src="./media/image32.png" width="345" height="290" />
+
+2. Columnize by Key/Value
+   
+   <img src="./media/image33.png" width="345" height="290" />
+
+   
+   <img src="./media/image34.png" width="345" height="290" />
+
+3. Now Data is "Wide" format:
+
+   
+   <img src="./media/image35.png" width="345" height="290" />
+
+Importing Other Data Formats, like XML
+-----------------------------------------
+Sometimes data needs to be wrangled into a spreadsheet-like format. For example, here is a link to Food Safety Rating data in the UK, but it is only available as an XML file. http://ratings.food.gov.uk/open-data/en-GB. Try clicking on one of the XML files. 
+
+Luckily, OpenRefine can take XML files!
+
+1. Create a new project, and select "Web Addresses (URLs)," and then enter the URL of the XML you'd like to import
+
+<img src="./media/image36.png" width="345" height="290" />
+
+<img src="./media/image37.png" width="345" height="290" />
+
+2. Ta da!! 
+<img src="./media/image38.png" width="345" height="290" />
+
+>>>>>>> 7d8e9b61167f41707ec7f9e578e21b36cebcfb2f
 
 Reconcilination: Matching Cells to Controlled Vocabularies
 -----------------------------------------
