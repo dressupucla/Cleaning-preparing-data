@@ -224,7 +224,7 @@ Reshaping from Long to Wide (and vice versa) can be done in OpenRefine, using th
 
 Importing Other Data Formats, like XML
 -----------------------------------------
-Sometimes data needs to be wrangled into a spreadsheet-like format. For example, here is a link to Food Safety Rating data in the UK, but it is only available as an XML file. http://ratings.food.gov.uk/OpenDataFiles/FHRS297en-GB.xml.
+Sometimes data needs to be wrangled into a spreadsheet-like format. For example, here is a link to Food Safety Rating data in the UK, but it is only available as an XML file. http://ratings.food.gov.uk/open-data/en-GB. Try clicking on one of the XML files. 
 
 Luckily, OpenRefine can take XML files!
 
