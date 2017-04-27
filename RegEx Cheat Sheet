@@ -32,7 +32,7 @@ We have encoded a digit as [0-9] but there is a shortcut: \d. There are several 
 Note that any character that is used to describe patterns within regular expressions must be escaped. For example, if you want to say "a period character" rather than "any character", then you must write \. because just writing . means "any character". 
 
 
-## Example usage for Regular Expressions in OpenRefine
+EXAMPLE USAGE FOR REGULAR EXPRESSIONS IN OPEN REFINE
 
 In the column titled "column" in our Carteles.csv, you want to replace all instances of “in” with "inches." To do so, create a custom text facet and then in the popup box enter: value.replace("in", "inches")). 
 
