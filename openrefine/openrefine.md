@@ -222,6 +222,18 @@ Reshaping from Long to Wide (and vice versa) can be done in OpenRefine, using th
    
    <img src="./media/image35.png" width="345" height="290" />
 
+Importing Other Data Formats, like XML
+-----------------------------------------
+Sometimes data needs to be wrangled into a spreadsheet-like format. For example, here is a link to Food Safety Rating data in the UK, but it is only available as an XML file. http://ratings.food.gov.uk/OpenDataFiles/FHRS297en-GB.xml.
+
+Luckily, OpenRefine can take XML files!
+
+<img src="./media/image36.png" width="345" height="290" />
+
+<img src="./media/image37.png" width="345" height="290" />
+
+<img src="./media/image38.png" width="345" height="290" />
+
 
 Matching Cells to Controlled Vocabularies
 -----------------------------------------
