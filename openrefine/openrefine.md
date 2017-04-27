@@ -228,10 +228,13 @@ Sometimes data needs to be wrangled into a spreadsheet-like format. For example,
 
 Luckily, OpenRefine can take XML files!
 
+1. Create a new project, and select "Web Addresses (URLs)," and then enter the URL of the XML you'd like to import
+
 <img src="./media/image36.png" width="345" height="290" />
 
 <img src="./media/image37.png" width="345" height="290" />
 
+2. Ta da!! 
 <img src="./media/image38.png" width="345" height="290" />
 
 
