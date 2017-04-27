@@ -6,10 +6,10 @@ Regular Expressions can be used in OpenRefine, as well as in other applications 
 
 
 As a first example, here is an example adapted from https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions. 
-Specifcally, consider the number as our datapoint of interest: -120.899. 
+Specifically, consider we have a numbers in our dataset, like: 120.899, -0.2909, and +2.343
 
-We can describe this number as:
-  -It optionally starts with a sign (minus or plus)
+We can describe these number as:
+  -Each optionally starts with a sign (minus or plus)
   -Then it consists of a sequence of one or more digits
   -Then optionally if it has a decimal part, it contains a period, followed by one or more digits
 
