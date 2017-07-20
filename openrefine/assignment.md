@@ -1,4 +1,5 @@
-**Overview:** Basically, this assignment is aimed at using our workflow (Collect, Clean, Analyze) to prepare data for next week's workshop.
+**Overview:** This assignment is aimed at using our workflow (Collect, Clean, Analyze) to prepare data for analysis.
+
 **Scenario:** A musicology researcher is interested in the locations of dance clubs in Los Angeles and wants to create a map of these; she is particularly interested in genres, so if you can get location and genre, that would be very nice.   You've discovered that Yelp is a pretty up-to-date source of information.  
 
 **The Assignment:**  You want to scrape information on the names, addresses, and genres of LA Dance Clubs using Import.io.  Then you want to geocode the address (providing a couple of new columns -- lat & long) of each club based on the street address in OpenRefine.  The goal is to have a spreadsheet with name, address (lat & lon), genres in a spreadsheet that we can start using with Tableau.  
@@ -27,22 +28,15 @@ a. Notice that we've got street addresses from Anaheim, Culver City, etc.  We've
 
 b. In drop-down menu for Secondary 2, choose Edit column >Add a column based on this column.  Name it fulladdress.  Then, in the expressions, enter  cells['Secondary 1'].value + ' ,' + cells['Secondary 2'].value  As you type the regular expression, you should see the results displayed in the box.  
 
-
-
 Hit OK, and you should get a nice new column that combines the two others.
 
 c.  Now, we want to create another new column for the latitude and longitude results.  From the fulladdress column, Edit column >Add column by fetching URLs.  We'll add this formula to call google's geocoding webservice:  "http://maps.google.com/maps/api/geocode/json?sensor=false&address=" + escape(value, "url")
 
-
-
 d. wait.  this will take some time and you'll get a column filled with JSON code.  You will now parse this, extracting just one pair of lat/long coordinates.  You guessed it!  Edit column>Add column based on this column.  Then copy and paste in this formula:
 with(value.parseJson().results[0].geometry.location, pair, pair.lat +", " + pair.lng
-
-
-
 
 e. You should now have a nice column with a pair of coordinates.  Save your spreadsheet, and you're ready for some Tableau!  
 
 If you've made it this far, you deserve some applause.  You've done a lot in both Import.io and OpenRefine.
 
-  If you're eager for more, try the same process with some other tools. (We're on the lookout for a replacement for Import.io) Chrome has a web-scraping extension that should accomplish the same sort of paginated scraping.  Let us know what works for you!  
+If you're eager for more, try the same process with some other tools. (We're on the lookout for a replacement for Import.io) Chrome has a web-scraping extension that should accomplish the same sort of paginated scraping.  Let us know what works for you!  
