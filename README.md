@@ -1,4 +1,4 @@
-### Digital Research Start-Up Partnerships
+### Cleaning and prepping your data
 
 Repo containing documentation on:
 
