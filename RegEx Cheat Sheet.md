@@ -16,20 +16,20 @@ The question mark (?) denotes an optional character or group of characters. The 
 
 We have encoded a digit as [0-9] but there is a shortcut: \d. Here are more shortcuts:
 
-* \d, same as [0-9]
-* \D, same as [^0-9], meaning any character other than a digit
-* \s, meaning any whitespace character (space, tab, new line, carriage return)
-* \S, meaning any character other than whitespace characters
-* \w, same as [a-zA-Z_0-9], meaning any character that can be part of a word (where the meaning of "word" is more liberal than an English word)
-* \W, meaning any non-word character
-* . meaning any single character
+* `\d`, same as [0-9]
+* `\D`, same as [^0-9], meaning any character other than a digit
+* `\s`, meaning any whitespace character (space, tab, new line, carriage return)
+* `\S`, meaning any character other than whitespace characters
+* `\w`, same as [a-zA-Z_0-9], meaning any character that can be part of a word (where the meaning of "word" is more liberal than an English word)
+* `\W`, meaning any non-word character
+* `.` meaning any single character
 
 Note that any character that is used to describe patterns within regular expressions must be escaped. For example, if you want to say "a period character" rather than "any character", then you must write \. because just writing . means "any character". 
 
 EXAMPLE USAGE FOR REGULAR EXPRESSIONS IN OPEN REFINE
 
-In the column titled "column" in our Carteles.csv, you want to replace all instances of “in” with "inches." To do so, create a custom text facet and then in the popup box enter: value.replace("in", "inches")). 
+In the column titled "column" in our Carteles.csv, you want to replace all instances of “in” with "inches." To do so, create a custom text facet and then in the popup box enter: `value.replace("in", "inches")`
 
-Or, if you want to remove "in" entirely: value.replace("in", "")
+Or, if you want to remove "in" entirely: `value.replace("in", "")`
 
-Or, if you want to remove the spaces entirely: value.replace(/\s+/, "")
+Or, if you want to remove the spaces entirely: `value.replace(/\s+/, "")`
